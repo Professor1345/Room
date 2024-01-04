@@ -552,7 +552,7 @@ video {
   min-height: 100vh;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .first-box {
     min-height: 66.6vh;
   }
@@ -576,7 +576,7 @@ video {
   flex-basis: 100%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .fb-first {
     flex-basis: 60%;
   }
@@ -604,16 +604,14 @@ video {
   display: flex;
 }
 
-.nav-button,
-  .fas {
+.nav-button, .fas {
   margin-top: auto;
   margin-bottom: auto;
   display: block !important;
 }
 
 @media (min-width: 768px) {
-  .nav-button,
-  .fas {
+  .nav-button, .fas {
     display: none !important;
   }
 }

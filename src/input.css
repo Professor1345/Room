@@ -7,13 +7,13 @@
     @apply box-border;
   }
   .first-box {
-    @apply min-h-[100vh] md:min-h-[66.6vh];
+    @apply min-h-[100vh] lg:min-h-[66.6vh];
     @apply flex relative flex-col md:flex-row;
   }
 
   .fb-first {
     @apply flex flex-col;
-    @apply basis-full md:basis-3/5;
+    @apply basis-full lg:basis-3/5;
     @apply bg-[url('./images/mobile-image-hero-1.jpg')] md:bg-[url('./images/desktop-image-hero-1.jpg')];
     @apply bg-center bg-no-repeat bg-cover;
   }
@@ -22,8 +22,7 @@
     @apply text-white;
     @apply flex;
   }
-  .nav-button,
-  .fas {
+  .nav-button, .fas {
     @apply my-auto;
     @apply block md:hidden !important;
   }
