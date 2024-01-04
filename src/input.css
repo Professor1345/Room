@@ -14,15 +14,17 @@
   .fb-first {
     @apply flex flex-col;
     @apply basis-full lg:basis-3/5;
-    @apply bg-[url('./images/mobile-image-hero-1.jpg')] md:bg-[url('./images/desktop-image-hero-1.jpg')];
+    @apply bg-[url('./images/mobile-image-hero-1.jpg')] sm:bg-[url('./images/desktop-image-hero-1.jpg')];
     @apply bg-center bg-no-repeat bg-cover;
+    @apply min-h-[50vh] md:min-h-[65vh];
   }
 
   .header {
     @apply text-white;
     @apply flex;
   }
-  .nav-button, .fas {
+  .nav-button,
+  .fas {
     @apply my-auto;
     @apply block md:hidden !important;
   }
@@ -34,15 +36,21 @@
   }
 
   .fb-third {
-    @apply flex;
+    @apply flex flex-col justify-center;
     @apply basis-full lg:basis-2/5;
+    @apply min-h-[50vh] md:min-h-[35vh];
+    @apply px-10 sm:px-16 md:px-20 lg:px-24;
+    /* @apply pt-12 pb-10 md:pt-8 md:pb-5; */
+    @apply bg-gray-200;
+  }
+  .shop-now {
   }
   .overlay-switch {
     @apply absolute hidden;
   }
 
   .second-box {
-    @apply md:min-h-[33.3vh];
+    @apply lg:min-h-[33.3vh];
   }
 
   .hovStyle {

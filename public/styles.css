@@ -586,7 +586,7 @@ video {
   background-image: url('./images/mobile-image-hero-1.jpg');
 }
 
-@media (min-width: 768px) {
+@media (min-width: 640px) {
   .fb-first {
     background-image: url('./images/desktop-image-hero-1.jpg');
   }
@@ -596,6 +596,13 @@ video {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  min-height: 50vh;
+}
+
+@media (min-width: 768px) {
+  .fb-first {
+    min-height: 65vh;
+  }
 }
 
 .header {
@@ -604,14 +611,16 @@ video {
   display: flex;
 }
 
-.nav-button, .fas {
+.nav-button,
+  .fas {
   margin-top: auto;
   margin-bottom: auto;
   display: block !important;
 }
 
 @media (min-width: 768px) {
-  .nav-button, .fas {
+  .nav-button,
+  .fas {
     display: none !important;
   }
 }
@@ -634,6 +643,8 @@ video {
 
 .fb-third {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   flex-basis: 100%;
 }
 
@@ -643,12 +654,57 @@ video {
   }
 }
 
+.fb-third {
+  min-height: 50vh;
+}
+
+@media (min-width: 768px) {
+  .fb-third {
+    min-height: 35vh;
+  }
+}
+
+.fb-third {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+@media (min-width: 640px) {
+  .fb-third {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .fb-third {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .fb-third {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+}
+
+.fb-third {
+  /* @apply pt-12 pb-10 md:pt-8 md:pb-5; */
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+
+.shop-now {
+}
+
 .overlay-switch {
   position: absolute;
   display: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .second-box {
     min-height: 33.3vh;
   }
