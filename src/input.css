@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .hovStyle {
+    /* @apply before:visible before:block before:content-[''];  */
+
+    /* hover:before:visible; */
+
+    /* @apply z-10 before:-z-[1]; */
+    /* @apply before:w-8 before:h-8 before:bg-white before:relative before:top-0; */
+
+    @apply before:invisible hover:before:visible;
+    @apply z-10 before:content-[""] before:block relative before:absolute before:bg-white;
+    @apply before:-z-[1];
+    /* before:-left-2 before:top-[90%] before:right-[10%]; */
+    @apply before:-bottom-[2px] before:left-[24%] p-1;
+    @apply before:h-[2px] before:w-[50%];
+    /* @apply p-1 border-b-2 border-black border-solid; */
+    /* @apply border-[linear-gradient(to_right,_rgba(0,0,0,0),_rgba(0,0,0,0),yellow,_rgba(0,0,0,0),_rgba(0,0,0,0))] !important; */
+  }
+  h1 {
+    @apply text-2xl;
+  }
+
+  h2 {
+    @apply text-xl;
+  }
+}
