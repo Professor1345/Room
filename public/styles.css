@@ -601,7 +601,7 @@ video {
 
 @media (min-width: 768px) {
   .fb-first {
-    min-height: 65vh;
+    min-height: 60vh;
   }
 }
 
@@ -660,7 +660,7 @@ video {
 
 @media (min-width: 768px) {
   .fb-third {
-    min-height: 35vh;
+    min-height: 40vh;
   }
 }
 
@@ -693,7 +693,7 @@ video {
 .fb-third {
   /* @apply pt-12 pb-10 md:pt-8 md:pb-5; */
   --tw-bg-opacity: 1;
-  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
 }
 
 .shop-now {
