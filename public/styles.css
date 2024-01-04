@@ -552,7 +552,7 @@ video {
   min-height: 100vh;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .first-box {
     min-height: 66.6vh;
   }
@@ -604,7 +604,25 @@ video {
   display: flex;
 }
 
+.nav-button, .fas {
+  margin-top: auto;
+  margin-bottom: auto;
+  display: block !important;
+}
+
+@media (min-width: 768px) {
+  .nav-button, .fas {
+    display: none !important;
+  }
+}
+
+.header-logo {
+  /* width="62" height="14" */
+}
+
 .navbar {
+  margin-top: auto;
+  margin-bottom: auto;
   display: none;
 }
 
@@ -636,9 +654,9 @@ video {
   }
 }
 
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .font-\[\'League_Spartan\'\2c _sans-serif\] {
