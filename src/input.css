@@ -35,7 +35,7 @@
 
   .fb-third {
     @apply flex;
-    @apply basis-full md:basis-2/5;
+    @apply basis-full lg:basis-2/5;
   }
   .overlay-switch {
     @apply absolute hidden;

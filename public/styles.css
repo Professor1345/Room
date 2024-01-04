@@ -637,7 +637,7 @@ video {
   flex-basis: 100%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .fb-third {
     flex-basis: 40%;
   }
