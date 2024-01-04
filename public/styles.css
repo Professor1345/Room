@@ -544,17 +544,103 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-h1 {
-  font-size: 1.5rem;
-  line-height: 2rem;
+* {
+  box-sizing: border-box;
 }
 
-h2 {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+.first-box {
+  min-height: 100vh;
 }
 
-.text-blue-600 {
+@media (min-width: 768px) {
+  .first-box {
+    min-height: 66.6vh;
+  }
+}
+
+.first-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .first-box {
+    flex-direction: row;
+  }
+}
+
+.fb-first {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+}
+
+@media (min-width: 768px) {
+  .fb-first {
+    flex-basis: 60%;
+  }
+}
+
+.fb-first {
+  background-image: url('./images/mobile-image-hero-1.jpg');
+}
+
+@media (min-width: 768px) {
+  .fb-first {
+    background-image: url('./images/desktop-image-hero-1.jpg');
+  }
+}
+
+.fb-first {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header {
   --tw-text-opacity: 1;
-  color: rgb(37 99 235 / var(--tw-text-opacity));
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  display: flex;
+}
+
+.navbar {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    display: flex;
+  }
+}
+
+.fb-third {
+  display: flex;
+  flex-basis: 100%;
+}
+
+@media (min-width: 768px) {
+  .fb-third {
+    flex-basis: 40%;
+  }
+}
+
+.overlay-switch {
+  position: absolute;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .second-box {
+    min-height: 33.3vh;
+  }
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.font-\[\'League_Spartan\'\2c _sans-serif\] {
+  font-family: 'League Spartan', sans-serif;
 }

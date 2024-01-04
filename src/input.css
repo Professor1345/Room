@@ -3,6 +3,41 @@
 @tailwind utilities;
 
 @layer components {
+  * {
+    @apply box-border;
+  }
+  .first-box {
+    @apply min-h-[100vh] md:min-h-[66.6vh];
+    @apply flex relative flex-col md:flex-row;
+  }
+
+  .fb-first {
+    @apply flex;
+    @apply basis-full md:basis-3/5;
+    @apply bg-[url('./images/mobile-image-hero-1.jpg')] md:bg-[url('./images/desktop-image-hero-1.jpg')];
+    @apply bg-center bg-no-repeat bg-cover;
+  }
+
+  .header {
+    @apply text-white;
+    @apply flex;
+  }
+  .navbar {
+    @apply hidden md:flex;
+  }
+
+  .fb-third {
+    @apply flex;
+    @apply basis-full md:basis-2/5;
+  }
+  .overlay-switch {
+    @apply absolute hidden;
+  }
+
+  .second-box {
+    @apply md:min-h-[33.3vh];
+  }
+
   .hovStyle {
     /* @apply before:visible before:block before:content-[''];  */
 
@@ -19,12 +54,5 @@
     @apply before:h-[2px] before:w-[50%];
     /* @apply p-1 border-b-2 border-black border-solid; */
     /* @apply border-[linear-gradient(to_right,_rgba(0,0,0,0),_rgba(0,0,0,0),yellow,_rgba(0,0,0,0),_rgba(0,0,0,0))] !important; */
-  }
-  h1 {
-    @apply text-2xl;
-  }
-
-  h2 {
-    @apply text-xl;
   }
 }
