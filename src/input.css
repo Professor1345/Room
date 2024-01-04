@@ -7,7 +7,7 @@
     @apply box-border;
   }
   .first-box {
-    @apply min-h-[100vh] lg:min-h-[66.6vh];
+    @apply min-h-[100vh] md:min-h-[66.6vh];
     @apply flex relative flex-col md:flex-row;
   }
 
@@ -22,7 +22,8 @@
     @apply text-white;
     @apply flex;
   }
-  .nav-button, .fas {
+  .nav-button,
+  .fas {
     @apply my-auto;
     @apply block md:hidden !important;
   }

@@ -552,7 +552,7 @@ video {
   min-height: 100vh;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .first-box {
     min-height: 66.6vh;
   }
@@ -604,14 +604,16 @@ video {
   display: flex;
 }
 
-.nav-button, .fas {
+.nav-button,
+  .fas {
   margin-top: auto;
   margin-bottom: auto;
   display: block !important;
 }
 
 @media (min-width: 768px) {
-  .nav-button, .fas {
+  .nav-button,
+  .fas {
     display: none !important;
   }
 }
