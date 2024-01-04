@@ -8,7 +8,7 @@
   }
   .first-box {
     @apply min-h-[100vh] lg:min-h-[66.6vh];
-    @apply flex relative flex-col md:flex-row;
+    @apply flex relative flex-col lg:flex-row;
   }
 
   .fb-first {

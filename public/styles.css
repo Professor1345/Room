@@ -564,7 +564,7 @@ video {
   flex-direction: column;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .first-box {
     flex-direction: row;
   }
