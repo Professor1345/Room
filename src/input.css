@@ -53,7 +53,7 @@
   /* Navbar for Mobile */
   .navMobile {
     @apply hidden  md:hidden;
-    @apply w-full h-screen z-20 fixed !important;
+    @apply w-full h-screen z-30 fixed !important;
     @apply bg-[rgba(0,0,0,0.5)];
     @apply top-0 left-0;
   }
@@ -73,12 +73,12 @@
 
   .navbarM {
     @apply flex flex-row flex-wrap;
-    @apply lowercase text-black font-bold bg-slate-500;
+    @apply lowercase text-black font-bold;
     @apply my-auto flex-grow justify-end;
     /* @apply min-h-[100vh]; */
   }
   .navbarM a {
-    @apply mx-2;
+    @apply mx-2 ml-3;
   }
 
   .fb-third {
@@ -109,6 +109,8 @@
     @apply md:min-h-[33.3vh];
   }
 
+  
+  
   .hovStyle {
     /* @apply before:visible before:block before:content-[''];  */
 

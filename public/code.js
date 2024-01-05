@@ -1,8 +1,8 @@
 // Function to open the mobile navigation
 const openButton = () => {
   // Get the mobile navigation element
-  alert("I am here");
   let navMobile = document.getElementsByClassName("navMobile")[0];
+  document.querySelector("body").style.overflow = "hidden";
   // Set its display style to "block" to make it visible
   navMobile.style.display = "block";
 };
@@ -11,6 +11,7 @@ const openButton = () => {
 const closeButton = () => {
   // Get the mobile navigation element
   let navMobile = document.getElementsByClassName("navMobile")[0];
+  document.querySelector("body").style.overflow = "auto";
   // Set its display style to "none" to hide it
   navMobile.style.display = "none";
 };
