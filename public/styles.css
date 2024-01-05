@@ -854,8 +854,7 @@ video {
 
 .fb-third {
   /* @apply pt-12 pb-10 md:pt-8 md:pb-5; */
-  --tw-bg-opacity: 1;
-  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+  /* @apply bg-gray-300; */
 }
 
 .fbt-header {
@@ -880,8 +879,8 @@ video {
 
 @media (min-width: 1024px) {
   .fbt-header {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
+    font-size: 34px;
+    line-height: 40px;
   }
 }
 
@@ -928,6 +927,7 @@ video {
 .shop-now {
   text-transform: uppercase;
   display: flex;
+  align-self: baseline;
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
 }
@@ -953,6 +953,10 @@ video {
   }
 }
 
+.shop-now {
+  font-size: 14.5px;
+}
+
 .shop-now:hover {
   --tw-invert: invert(50%);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
@@ -971,7 +975,7 @@ video {
 @media (min-width: 768px) {
   .second-box {
     flex-direction: row;
-    min-height: 33.3vh;
+    min-height: 33.4vh;
   }
 }
 
@@ -984,6 +988,17 @@ video {
     flex-basis: 30%;
   }
 }
+
+.sb-first {
+  background-image: url("./images/image-about-dark.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* .sb-first img{
+    @apply object-cover object-center;
+  } */
 
 .sb-second {
   flex-basis: 100%;
@@ -999,8 +1014,7 @@ video {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  --tw-bg-opacity: 1;
-  background-color: rgb(147 197 253 / var(--tw-bg-opacity));
+  /* @apply bg-blue-300; */
   padding-left: 2.5rem;
   padding-right: 2.5rem;
 }
@@ -1021,35 +1035,46 @@ video {
 
 @media (min-width: 1024px) {
   .sb-second {
+    padding-left: 2.75rem;
+    padding-right: 2.75rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .sb-second {
     padding-left: 3rem;
     padding-right: 3rem;
   }
 }
 
 .sb-second {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
-@media (min-width: 640px) {
-  .sb-second {
-    padding-top: 0.25rem;
-    padding-bottom: 0.25rem;
-  }
-}
-
-.sb-second {
+  /* @apply py-6 sm:py-1; */
   /* @apply px-10 sm:px-16 md:px-[38px] lg:px-16; */
 }
 
 .sbs-header {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;
+  letter-spacing: 1.7px;
+}
+
+@media (min-width: 640px) {
+  .sbs-header {
+    letter-spacing: 3px;
+  }
+}
+
+@media (min-width: 768px) {
+  .sbs-header {
+    letter-spacing: 3.5px;
+  }
 }
 
 .sbs-content {
-  font-size: 1rem;
-  line-height: 1.5rem;
+  font-size: 14.5px;
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
 }
@@ -1068,6 +1093,13 @@ video {
   .sb-third {
     flex-basis: 30%;
   }
+}
+
+.sb-third {
+  background-image: url("./images/image-about-light.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .visible {
@@ -1111,9 +1143,8 @@ video {
   font-family: 'League Spartan', sans-serif;
 }
 
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
+.text-\[15px\] {
+  font-size: 15px;
 }
 
 .font-bold {

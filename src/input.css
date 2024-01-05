@@ -88,17 +88,18 @@
     @apply px-10 sm:px-16 md:px-[38px] lg:px-16;
     @apply py-6 sm:py-1;
     /* @apply pt-12 pb-10 md:pt-8 md:pb-5; */
-    @apply bg-gray-300;
+    /* @apply bg-gray-300; */
   }
 
   .fbt-header {
-    @apply font-bold text-3xl sm:text-4xl md:text-[30px] md:leading-[30px] lg:text-3xl xl:text-4xl 2xl:text-5xl;
+    @apply font-bold text-3xl sm:text-4xl md:text-[30px] md:leading-[30px] lg:text-[34px] lg:leading-[40px] xl:text-4xl 2xl:text-5xl;
     @apply py-2 md:py-3 xl:py-4 2xl:py-6;
   }
   .shop-now {
     @apply uppercase;
-    @apply flex;
+    @apply flex self-baseline;
     @apply my-3 md:my-3 xl:my-4 2xl:my-6;
+    @apply text-[14.5px];
     @apply hover:invert-[50%];
   }
 
@@ -108,29 +109,37 @@
 
   .second-box {
     @apply flex flex-col md:flex-row;
-    @apply md:min-h-[33.3vh];
+    @apply md:min-h-[33.4vh];
   }
   .sb-first {
     @apply basis-full md:basis-[30%];
+    @apply bg-[url("./images/image-about-dark.jpg")];
+    @apply bg-no-repeat bg-center bg-cover;
   }
-
+  /* .sb-first img{
+    @apply object-cover object-center;
+  } */
   .sb-second {
     @apply basis-full md:basis-2/5;
     @apply flex flex-col justify-center;
-    @apply bg-blue-300;
-    @apply px-10 sm:px-16 md:px-[34px] lg:px-12;
-    @apply py-6 sm:py-1;
+    /* @apply bg-blue-300; */
+    @apply px-10 sm:px-16 md:px-[34px] lg:px-11 xl:px-12;
+    /* @apply py-6 sm:py-1; */
+
     /* @apply px-10 sm:px-16 md:px-[38px] lg:px-16; */
   }
 
-  .sbs-header{
-    @apply uppercase font-bold;
+  .sbs-header {
+    @apply uppercase font-bold text-[15px] my-2;
+    @apply tracking-[1.7px] sm:tracking-[3px] md:tracking-[3.5px];
   }
-  .sbs-content{
-    @apply text-gray-500 text-base xl:text-[18px];
+  .sbs-content {
+    @apply text-gray-500 text-[14.5px] xl:text-[18px];
   }
   .sb-third {
     @apply basis-full md:basis-[30%];
+    @apply bg-[url("./images/image-about-light.jpg")];
+    @apply bg-no-repeat bg-center bg-cover;
   }
 
   .hovStyle {
