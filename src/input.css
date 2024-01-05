@@ -24,7 +24,7 @@
     @apply flex;
   }
   .nav-button,
-  .fas {
+  .fa-bars {
     @apply my-auto;
     @apply block md:hidden !important;
   }
@@ -39,12 +39,23 @@
     @apply flex flex-col justify-center;
     @apply basis-full lg:basis-2/5;
     @apply min-h-[50vh] md:min-h-[40vh];
-    @apply px-10 sm:px-16 md:px-20 lg:px-24;
+    @apply px-10 sm:px-16 md:px-20 lg:px-16;
+    @apply py-6 sm:py-1;
     /* @apply pt-12 pb-10 md:pt-8 md:pb-5; */
     @apply bg-gray-500;
   }
-  .shop-now {
+
+  .fbt-header{
+    @apply font-bold text-xl sm:text-3xl md:text-4xl lg:text-3xl xl:text-4xl 2xl:text-5xl;
+    @apply py-2 md:py-3 xl:py-4 2xl:py-6;
+
   }
+  .shop-now {
+    @apply uppercase;
+    @apply flex;
+  }
+  
+
   .overlay-switch {
     @apply absolute hidden;
   }

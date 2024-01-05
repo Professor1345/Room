@@ -612,7 +612,7 @@ video {
 }
 
 .nav-button,
-  .fas {
+  .fa-bars {
   margin-top: auto;
   margin-bottom: auto;
   display: block !important;
@@ -620,7 +620,7 @@ video {
 
 @media (min-width: 768px) {
   .nav-button,
-  .fas {
+  .fa-bars {
     display: none !important;
   }
 }
@@ -685,8 +685,20 @@ video {
 
 @media (min-width: 1024px) {
   .fb-third {
-    padding-left: 6rem;
-    padding-right: 6rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+.fb-third {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .fb-third {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
   }
 }
 
@@ -696,7 +708,76 @@ video {
   background-color: rgb(107 114 128 / var(--tw-bg-opacity));
 }
 
+.fbt-header {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+}
+
+@media (min-width: 640px) {
+  .fbt-header {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .fbt-header {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .fbt-header {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .fbt-header {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .fbt-header {
+    font-size: 3rem;
+    line-height: 1;
+  }
+}
+
+.fbt-header {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .fbt-header {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .fbt-header {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .fbt-header {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+}
+
 .shop-now {
+  text-transform: uppercase;
+  display: flex;
 }
 
 .overlay-switch {
@@ -713,6 +794,10 @@ video {
 .my-auto {
   margin-top: auto;
   margin-bottom: auto;
+}
+
+.h-3 {
+  height: 0.75rem;
 }
 
 .font-\[\'League_Spartan\'\2c _sans-serif\] {
