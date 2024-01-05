@@ -41,12 +41,12 @@
                 srcset=""
               />
             </div>
-
+<!-- Navbar for Desktop -->
             <div class="navbar lowercase">
-              <a href="">Home</a>
-              <a href="">Shop</a>
-              <a href="">About</a>
-              <a href="">Contact</a>
+              <a class="hovStyle" href="">Home</a>
+              <a class="hovStyle" href="">Shop</a>
+              <a class="hovStyle" href="">About</a>
+              <a class="hovStyle" href="">Contact</a>
             </div>
           </div>
 
@@ -65,11 +65,19 @@
               </div>
             </div>
           </div>
+
+          <!-- Mobile Overlay -->
+          <div class="overlay-switchM flex md:hidden">
+            <div class="less-than">
+              <img class="h-3 overlay-center" src="./images/icon-angle-left.svg" alt="" srcset="" />
+            </div>
+            <div class="greater-than">
+              <img class="h-3 overlay-center" src="./images/icon-angle-right.svg" alt="" srcset="" />
+            </div>
+          </div>
         </div>
-        <div class="overlay-switch">
-          <div>&LessLess;</div>
-          <div>&GreaterGreater;</div>
-        </div>
+
+        
         <div class="fb-third">
           <div class="fbt-header">Discover innovative ways to decorate</div>
           <div
@@ -92,6 +100,16 @@
               srcset=""
             />
           </a>
+
+          <!-- Desktop Overlay -->
+        <div class="overlay-switchD hidden md:flex">
+          <div class="less-than">
+            <img class="overlay-center" src="./images/icon-angle-left.svg" alt="" srcset="" />
+          </div>
+          <div class="greater-than">
+            <img class="overlay-center" src="./images/icon-angle-right.svg" alt="" srcset="" />
+          </div>
+        </div>
         </div>
       </div>
       <div class="second-box">
