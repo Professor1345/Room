@@ -166,12 +166,24 @@
     font-stretch: extra-expanded;
   }
 
-  @media (min-width: 768px) and (min-height: 559px) {
+  @media (min-width: 768px) and (max-width: 900px) and (min-height: 559px) {
     .first-box {
-      @apply min-h-[100vh] md:min-h-0;
+      @apply min-h-0;
     }
     .second-box {
-      @apply min-h-[100vh] md:min-h-0;
+      @apply min-h-0;
+    }
+
+    .fb-third {
+      @apply min-h-0;
+    }
+    .fbt-header {
+      @apply font-bold text-[26px];
+      /* sm:text-4xl md:text-[30px] md:leading-[30px] lg:text-[34px] lg:leading-[40px] xl:text-4xl 2xl:text-5xl; */
+      /* @apply py-2 md:py-3 xl:py-4 2xl:py-6; */
+    }
+    .fb-first {
+      @apply min-h-0;
     }
   }
 }

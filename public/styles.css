@@ -1230,25 +1230,28 @@ video {
   color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
-@media (min-width: 768px) and (min-height: 559px) {
+@media (min-width: 768px) and (max-width: 900px) and (min-height: 559px) {
   .first-box {
-    min-height: 100vh;
-  }
-
-  @media (min-width: 768px) {
-    .first-box {
-      min-height: 0px;
-    }
+    min-height: 0px;
   }
 
   .second-box {
-    min-height: 100vh;
+    min-height: 0px;
   }
 
-  @media (min-width: 768px) {
-    .second-box {
-      min-height: 0px;
-    }
+  .fb-third {
+    min-height: 0px;
+  }
+
+  .fbt-header {
+    font-size: 26px;
+    font-weight: 700;
+    /* sm:text-4xl md:text-[30px] md:leading-[30px] lg:text-[34px] lg:leading-[40px] xl:text-4xl 2xl:text-5xl; */
+    /* @apply py-2 md:py-3 xl:py-4 2xl:py-6; */
+  }
+
+  .fb-first {
+    min-height: 0px;
   }
 }
 
