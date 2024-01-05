@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,7 +12,12 @@
       href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
-
+    <link
+      rel="shortcut icon"
+      href="./images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <script src="./code.js"></script>
     <title>Room</title>
   </head>
   <body>
@@ -20,21 +25,37 @@
       <div class="first-box">
         <div class="fb-first">
           <div class="header">
-            <div class="nav-button fas fa-bars"></div>
-            <div class="my-auto">
+            <div class="nav-button fas fa-bars" onclick="openButton()"></div>
+            <div class="logo">
               <img
-                class="header-logo"
+                class="logo-image"
                 src="./images/logo.svg"
                 alt="room"
                 srcset=""
               />
             </div>
 
-            <div class="navbar">
+            <div class="navbar lowercase">
               <a href="">Home</a>
               <a href="">Shop</a>
               <a href="">About</a>
               <a href="">Contact</a>
+            </div>
+          </div>
+
+          <!-- Navbar for Mobile -->
+          <div class="navMobile">
+            <div class="nm-wrapper">
+              <div class="cursor-pointer nav-buttonM" onclick="closeButton()">
+                &times;
+              </div>
+
+              <div class="navbarM">
+                <a href="">Home</a>
+                <a href="">Shop</a>
+                <a href="">About</a>
+                <a href="">Contact</a>
+              </div>
             </div>
           </div>
         </div>
@@ -44,17 +65,24 @@
         </div>
         <div class="fb-third">
           <div class="fbt-header">Discover innovative ways to decorate</div>
-          <div>
+          <div class="text-base xl:text-[18px]">
             We provide unmatched quality, comfort, and style for property owners
             across the country. Our experts combine form and function in
             bringing your vision to life. Create a room in your own style with
             our collection and make your property a reflection of you and what
             you love.
           </div>
-          <div class="shop-now">
-            <span>Shop now</span>
-            <img class="h-3 my-auto" src="./images/icon-arrow.svg" alt="arrow" srcset="" />
-          </div>
+          <a href="" class="shop-now">
+            <div class="mr-4 md:mr-6 font-bold">
+              S&nbsp; h&nbsp; o&nbsp; p &nbsp;&nbsp;&nbsp; n&nbsp; o&nbsp; w
+            </div>
+            <img
+              class="h-3 my-auto"
+              src="./images/icon-arrow.svg"
+              alt="arrow"
+              srcset=""
+            />
+          </a>
         </div>
       </div>
       <div class="second-box">
