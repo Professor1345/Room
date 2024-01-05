@@ -98,7 +98,8 @@
   .shop-now {
     @apply uppercase;
     @apply flex;
-    @apply py-3 md:py-3 xl:py-4 2xl:py-6;
+    @apply my-3 md:my-3 xl:my-4 2xl:my-6;
+    @apply hover:invert-[50%];
   }
 
   .overlay-switch {
@@ -106,11 +107,32 @@
   }
 
   .second-box {
+    @apply flex flex-col md:flex-row;
     @apply md:min-h-[33.3vh];
   }
+  .sb-first {
+    @apply basis-full md:basis-[30%];
+  }
 
-  
-  
+  .sb-second {
+    @apply basis-full md:basis-2/5;
+    @apply flex flex-col justify-center;
+    @apply bg-blue-300;
+    @apply px-10 sm:px-16 md:px-[34px] lg:px-12;
+    @apply py-6 sm:py-1;
+    /* @apply px-10 sm:px-16 md:px-[38px] lg:px-16; */
+  }
+
+  .sbs-header{
+    @apply uppercase font-bold;
+  }
+  .sbs-content{
+    @apply text-gray-500 text-base xl:text-[18px];
+  }
+  .sb-third {
+    @apply basis-full md:basis-[30%];
+  }
+
   .hovStyle {
     /* @apply before:visible before:block before:content-[''];  */
 
