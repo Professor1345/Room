@@ -1215,6 +1215,10 @@ video {
     margin-right: 1.5rem;
   }
 
+  .md\:block {
+    display: block;
+  }
+
   .md\:text-\[15px\] {
     font-size: 15px;
   }
