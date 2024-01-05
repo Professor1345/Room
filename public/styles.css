@@ -796,6 +796,15 @@ video {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+}
+
+@media (min-width: 640px) {
+  .fb-third {
+    justify-content: center;
+  }
+}
+
+.fb-third {
   flex-basis: 100%;
 }
 
