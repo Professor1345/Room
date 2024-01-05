@@ -795,7 +795,7 @@ video {
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-basis: 100%;
 }
 
