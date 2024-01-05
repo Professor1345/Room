@@ -82,7 +82,7 @@
   }
 
   .fb-third {
-    @apply flex flex-col relative justify-around;
+    @apply flex flex-col relative justify-evenly;
     @apply basis-full md:basis-2/5;
     @apply min-h-[55vh] md:min-h-[50vh];
     @apply px-10 sm:px-16 md:px-[38px] lg:px-16;
