@@ -1230,7 +1230,7 @@ video {
   color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
-@media (min-width: 768px) and (max-width: 900px) and (min-height: 559px) {
+@media (min-width: 768px) and (max-width: 1100px) and (min-height: 559px) {
   .first-box {
     min-height: 0px;
   }
