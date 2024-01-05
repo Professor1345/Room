@@ -24,9 +24,7 @@
     @apply flex;
     @apply m-10 mx-6 md:mx-10;
   }
-  .nav-button,
-  .fas,
-  .fa-bars {
+  .nav-button {
     @apply mx-3 md:mx-4;
     @apply my-auto cursor-pointer;
     @apply text-2xl;

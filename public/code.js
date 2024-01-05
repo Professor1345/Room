@@ -1,6 +1,7 @@
 // Function to open the mobile navigation
 const openButton = () => {
   // Get the mobile navigation element
+  alert("I am here");
   let navMobile = document.getElementsByClassName("navMobile")[0];
   // Set its display style to "block" to make it visible
   navMobile.style.display = "block";

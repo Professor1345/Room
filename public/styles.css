@@ -621,25 +621,19 @@ video {
   }
 }
 
-.nav-button,
-  .fas,
-  .fa-bars {
+.nav-button {
   margin-left: 0.75rem;
   margin-right: 0.75rem;
 }
 
 @media (min-width: 768px) {
-  .nav-button,
-  .fas,
-  .fa-bars {
+  .nav-button {
     margin-left: 1rem;
     margin-right: 1rem;
   }
 }
 
-.nav-button,
-  .fas,
-  .fa-bars {
+.nav-button {
   margin-top: auto;
   margin-bottom: auto;
   cursor: pointer;
@@ -649,9 +643,7 @@ video {
 }
 
 @media (min-width: 768px) {
-  .nav-button,
-  .fas,
-  .fa-bars {
+  .nav-button {
     display: none !important;
   }
 }
