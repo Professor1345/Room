@@ -124,7 +124,7 @@
     @apply flex flex-col justify-center;
     /* @apply bg-blue-300; */
     @apply px-10 sm:px-16 md:px-[34px] lg:px-11 xl:px-12;
-    @apply py-6 sm:py-1;
+    @apply py-6 sm:py-1 md:py-3 lg:py-1;
 
     /* @apply px-10 sm:px-16 md:px-[38px] lg:px-16; */
   }
@@ -134,7 +134,7 @@
     @apply tracking-[1.7px] sm:tracking-[3px] md:tracking-[3.5px];
   }
   .sbs-content {
-    @apply text-gray-500 text-base md:text-[14.5px] xl:text-[18px];
+    @apply text-gray-500 text-base leading-5 md:leading-4 lg:leading-5 md:text-[14.5px] xl:text-[18px];
   }
   .sb-third {
     @apply basis-[30vh] md:basis-[30%];
@@ -164,5 +164,14 @@
 @layer utilities {
   .sn-exp {
     font-stretch: extra-expanded;
+  }
+
+  @media (min-width: 768px) and (min-height: 559px) {
+    .first-box {
+      @apply min-h-[100vh] md:min-h-0;
+    }
+    .second-box {
+      @apply min-h-[100vh] md:min-h-0;
+    }
   }
 }
