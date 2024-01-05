@@ -99,7 +99,7 @@
     @apply uppercase;
     @apply flex self-baseline;
     @apply my-3 md:my-3 xl:my-4 2xl:my-6;
-    @apply text-[14.5px];
+    @apply text-base md:text-[15px];
     @apply hover:invert-[50%];
   }
 
@@ -130,11 +130,11 @@
   }
 
   .sbs-header {
-    @apply uppercase font-bold text-[15px] my-2;
+    @apply uppercase font-bold text-base md:text-[15px] my-2;
     @apply tracking-[1.7px] sm:tracking-[3px] md:tracking-[3.5px];
   }
   .sbs-content {
-    @apply text-gray-500 text-[14.5px] xl:text-[18px];
+    @apply text-gray-500 text-base md:text-[15px] xl:text-[18px];
   }
   .sb-third {
     @apply basis-[30vh] md:basis-[30%];

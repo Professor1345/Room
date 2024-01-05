@@ -954,7 +954,14 @@ video {
 }
 
 .shop-now {
-  font-size: 14.5px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .shop-now {
+    font-size: 15px;
+  }
 }
 
 .shop-now:hover {
@@ -1075,9 +1082,19 @@ video {
 .sbs-header {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-  font-size: 15px;
+  font-size: 1rem;
+  line-height: 1.5rem;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  .sbs-header {
+    font-size: 15px;
+  }
+}
+
+.sbs-header {
   letter-spacing: 1.7px;
 }
 
@@ -1094,9 +1111,16 @@ video {
 }
 
 .sbs-content {
-  font-size: 14.5px;
+  font-size: 1rem;
+  line-height: 1.5rem;
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .sbs-content {
+    font-size: 15px;
+  }
 }
 
 @media (min-width: 1280px) {
