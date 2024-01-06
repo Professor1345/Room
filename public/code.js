@@ -16,6 +16,10 @@ const closeButton = () => {
   navMobile.style.display = "none";
 };
 
+
+
+
+
 // The commented-out code below appears to be an attempt to handle navigation visibility based on screen width,
 // but it's currently disabled (commented out).
 
