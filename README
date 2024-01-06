@@ -1,13 +1,10 @@
-Certainly! I'll expand the content to provide more details and information about the Room Website project.
-
-```markdown
 # Room Website
 
 Welcome to the Room Website project! This repository contains the code for a stylish and interactive website designed to showcase furniture collections. The website utilizes HTML, CSS with Tailwind CSS, and JavaScript to provide a seamless and engaging user experience.
 
 ## Website Link
 
-[Room Website](#) <!-- Replace '#' with the actual link when available -->
+[Room Website](https://roooom.netlify.app/)
 
 ## Table of Contents
 
@@ -20,7 +17,6 @@ Welcome to the Room Website project! This repository contains the code for a sty
 - [Author](#author)
 - [Getting Started](#getting-started)
 - [Acknowledgments](#acknowledgments)
-- [License](#license)
 
 ## Overview
 
@@ -28,17 +24,21 @@ Welcome to the Room Website project! This repository contains the code for a sty
 
 The HTML code (`index.html`) serves as the foundation for the Room Website, defining the structure and content. Key sections include:
 
-- **First Box**: Features a responsive navigation bar, logo, and a compelling message for an immersive user experience.
-- **Second Box**: Introduces users to the furniture collection with captivating visuals and a call-to-action button.
-- **Third Box**: Highlights information about the furniture, including its multifunctional nature and the availability of product specialists.
+- **First Main Box**: It has two box which are explained below;
+
+  - **First Box**: Features a responsive navigation bar, logo, and a compelling message for an immersive user experience.
+  - **Second Box**: Introduces users to the furniture collection with captivating visuals and a call-to-action button.
+
+- **Second Main Box**: Highlights information about the furniture, including its multifunctional nature and the availability of product specialists.
 
 ### CSS
 
 The CSS code (`styles.css`) enhances the visual appeal of the website, providing styling and responsiveness. Highlights include:
 
-- **First Box Styling**: Applies background images, text styles, and responsive layouts to the first box.
-- **Second Box Styling**: Defines flex layouts, image styles, and responsive padding for the second box components.
-- **Third Box Styling**: Styles the about-furniture section with appropriate fonts and spacing.
+- **Second Main Box Styling**: It has two styling boxes as explained below;
+  - **First Box Styling**: Applies background images, text styles, and responsive layouts to the first box.
+  - **Second Box Styling**: Defines flex layouts, image styles, and responsive padding for the second box components.
+- **Second Main Box Styling**: Styles the about-furniture section with appropriate fonts and spacing.
 
 ### JavaScript
 
@@ -51,9 +51,19 @@ The JavaScript code (`code.js`) adds interactivity to the website, focusing on m
 
 Developing the Room Website presented several challenges:
 
-- **First Box**: Overcoming hover issues and ensuring height responsiveness.
-- **Second Box**: Resolving challenges related to overlay placement, flexbox calculations, and hover effects.
-- **Third Box**: Addressing miscalculations in flexbox usage and resolving minor hover issues.
+- **First Box**:
+
+1. Overcoming hover issues.
+2. Ensuring height responsiveness.
+3. Image and text slideshow issue where I had delays in JS looping and conditional statement.
+4. Overlay button for slideshow issue.
+5. Resolving issue of hover effects with provided svg arrow because it is image and color can't be changed, but made use of `filter : invert()`.
+
+- **Second Box**: Addressing miscalculations in flexbox usage and resolving minor padding and margin issues.
+
+- **Additional Main Challenge**
+- Additional main issue I faced was with the tablet viewport where I had to set the max-height because this project is non-scrollable or less scrollable in Tablet and Desktop mode.
+  So, to reolved the issue of height when using the website on Desktop mode with phone, I called in max-height to manage the height.
 
 ## Built with
 
@@ -63,8 +73,8 @@ Developing the Room Website presented several challenges:
 
 ## Author
 
-- **Website**: [Your Name](#) <!-- Replace '#' with the link to your personal website -->
-- **Twitter**: [@YourTwitterHandle](#) <!-- Replace '#' with your Twitter handle -->
+- **Website**: [Hammed Bello](http://hammedbello.netlify.app/)
+- **Twitter**: [@JavaNotScript](https://twitter.com/JavaNotScript)
 
 ## Getting Started
 
@@ -73,12 +83,4 @@ Developing the Room Website presented several challenges:
 
 ## Acknowledgments
 
-- Special thanks to [Font Awesome](https://fontawesome.com/) for providing the icon set used in this project.
 - The [Tailwind CSS](https://tailwindcss.com/) framework greatly contributed to the responsive and stylish design.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-```
-
-Feel free to adjust any sections or add more specific details as needed. Let me know if there's anything else you'd like to include!
