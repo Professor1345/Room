@@ -35,3 +35,15 @@ const closeButton = () => {
 //     // Set display based on window width
 //     window.innerWidth >= 780 ? (navMobile.style.display = 'none') : (navMobile.style.display = 'none');
 // });
+
+// document.getElementsByClassName("less-than")[0].addEventListener("click", counterFuncPlus);
+// let counterPlus = 0;
+// let counterFuncPlus = () => {
+//   alert(counterPlus++);
+// };
+
+// document.getElementsByClassName("less-than")[0].addEventListener("click", counterFuncMinus);
+// let counterMinus = 0;
+// let counterFuncMinus = () => {
+//   alert(counterMinus--);
+// };
